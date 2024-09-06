@@ -1,0 +1,10 @@
+{
+    "obfuscate_numbers": true,
+    "obfuscate_access_chains": true,
+    "addJunkCode": true,
+    "junkCodeLevel":3,
+    "ignoreTrace": true,
+    "convertToES4": false,
+    "input":"./demo/Decrypter.as",
+    "output":"./demo/Obfuscated.as"
+}
