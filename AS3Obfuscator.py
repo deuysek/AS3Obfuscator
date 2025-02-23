@@ -257,7 +257,7 @@ if __name__ == "__main__":
             if _brace_count < _last_enter_function and _is_in_function:
                 _is_in_function = False
         if "import " in code:
-            if config["convertToES4"]:
+            if config["convertToES4"] and False:
                 nsName = get_random_string(1)
                 code = "namespace " + nsName + " = \"" + code[code.index("import ") + 7 : code.rindex(".")] + "\"; use namespace " + nsName + ";\n"
                 obfuscated.append(code)
